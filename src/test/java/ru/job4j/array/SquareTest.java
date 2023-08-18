@@ -13,6 +13,7 @@ public class SquareTest {
         assertThat(result).containsExactly(expected);
     }
     @Test
+    
     void whenBound5Then014916() {
         int bound = 5;
         int[] result = Square.calculate(bound);
