@@ -15,7 +15,7 @@ public class Turn {
     }
 
     public static void main(String[] args) {
-        int[] arry = {1, 2, 3, 4, 5, 6 , 7, 8};
+        int[] arry = {1, 2, 3, 4, 5, 6, 7, 8};
         int[] rsl = back(arry);
         for (int index = 0; index < 1; index++) {
             System.out.println(Arrays.toString(arry));
